@@ -156,12 +156,14 @@ button {
   font-size: 1rem;
   font-weight: 500;
   font-family: inherit;
+  border-color: black;
   background-color: #ffffff;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: background-color 0.25s;
 }
 button:hover {
-  border-color: #000000;
+  background-color: #000000;
+  color: white;
 }
 
 
