@@ -84,8 +84,31 @@ h2 {
   row-gap: 0.2rem;
   grid-template-columns: auto auto;
   text-align: center;
+  padding-bottom: 5rem;
 }
-
+h3 {
+  font-size: 2rem;
+}
 h4 {
   font-size: 1.8rem;
+}
+
+.Solution {
+  text-align: center;
+}
+
+.grid2 {
+  /* display: inline-grid;
+  column-gap: 0.2rem;
+  row-gap: 0.2rem;
+  grid-template-columns: auto auto;
+  text-align: center; */
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.card {
+  width: 40%;
 }
