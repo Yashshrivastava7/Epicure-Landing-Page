@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="index.css">
 
   <body>
-    <div class="navbar">
+    <div class="navbar" id="navbar">
       <div class="links">
         <div>
           <a href="#Problem">Problem</a>
@@ -83,8 +83,8 @@
         <h2>Contact Us</h2>
         <p>Feel Free To Drop Us A Line or Mail us at: connect@epicurerobotics.com</p>
         <form class="form-group" accept-charset="UTF-8" action="https://www.formbackend.com/f/320ed7d88fdf4edc" method="POST">
-          <input type="text" size="50" class="form-control" placeholder="Your Name" required><br/>
-          <input type="email" size="50" class="form-control" placeholder="Enter Email"requried><br/>
+          <input type="text" size="53" class="form-control" placeholder="Your Name" required><br/>
+          <input type="email" size="53" class="form-control" placeholder="Enter Email"requried><br/>
           <textarea name="comment" id="comment" rows="10" cols="43" class="form-control" placeholder="Your Message"></textarea>
           
           <br/>
@@ -92,6 +92,18 @@
         </form>
       </div>
     </section>
+
+    <script>
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          document.getElementById("navbar").style.padding = "20px 10px";
+        } else {
+          document.getElementById("navbar").style.padding = "50px 10px";
+        }
+      }
+    </script>
     
   </body>
 </html>
