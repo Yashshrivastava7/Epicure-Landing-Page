@@ -112,3 +112,44 @@ h4 {
 .card {
   width: 40%;
 }
+
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Contact input {
+  margin-bottom: 0.2rem;
+}
+
+.Contact p {
+  margin: 2rem;
+}
+
+.Contact button {
+  margin-top: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+textarea {
+  resize: none;
+}
+
+
+button {
+  border-radius: 8px;
+  border: 2px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #000000;
+}
