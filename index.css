@@ -1,0 +1,42 @@
+.navbar {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 50px 10px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  text-decoration: none;
+	font-family: Cambria, serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+a {
+  transition: background-color 0.35s;
+  transition: border 0.15s;
+  border: solid 0.15rem transparent;
+}
+
+a:hover {
+  border: solid;
+  border-radius: 8px;
+  border-width: 0.15rem;
+  border-color: aliceblue;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
