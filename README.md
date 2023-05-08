@@ -1,3 +1,3 @@
 # Epicure-Landing-Page
 
-## Landing page for a company i was interviewing
+## Landing page for a company I was interviewing
